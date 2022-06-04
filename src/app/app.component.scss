@@ -1,0 +1,242 @@
+.resume-container{
+    box-shadow: inset;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    .section-title{
+        font-size: 28px;
+        font-weight: bold; 
+        margin-bottom: 20px;      
+    }
+    .mg-bt-20{
+        margin-bottom: 30px !important;
+    }
+    .resume-header{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 25px;
+        .profile-pic{
+            margin-right: 30px;
+            .pp-img{
+                width: 180px;
+                height: 180px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .basic-details{
+            .name-div{
+                font-size: 48px;
+                font-weight: bold;
+                margin-bottom: 7px;
+            }
+            .designation-div{
+                font-size: 32px;
+                opacity: 0.7;
+                margin-bottom: 7px;
+                font-weight: 600;
+            }
+            .summary-div{
+                font-size: 24px;
+                opacity: 0.7;
+            }
+        }
+    }
+    .personal-details{
+        display: flex;
+        justify-content: center;
+        color: white;
+        align-items: center;
+        .email{
+            align-items: center !important;
+            .icon {
+                height: 18px !important;
+                width: 18px !important;
+            }
+        }
+        .email,.phone,.address,.dob{
+            display: flex;
+            padding: 10px;
+            align-items: flex-start;
+            margin-right: 20px;
+            .icon {
+                margin-right: 10px;
+                height: 15px;
+                width: 15px;
+            }
+            .value{
+
+            }
+        }
+    }
+    .resume-body{
+        display: flex;
+        justify-content: space-between;
+        .left-div,.right-div{
+            width: 50%;
+            padding: 25px;
+        }
+        .left-div{
+            padding-left: 25px;
+            .work-experience{
+                .experience-div{
+                    margin-bottom: 20px;
+                    .we-designation{
+                        font-size: 26px;
+                        font-weight: bold;
+                        margin-bottom: 5px;
+                    }
+                    .we-company{
+                        font-weight: 600;
+                        margin-bottom: 5px;
+                    }
+                    .we-duration{
+                        color: gray;
+                        font-style: italic;
+                        margin-bottom: 5px;
+                    }
+                    .we-achievementsOrTasks{
+                        .we-ach-title{
+                            font-size: 20px;
+                            font-weight: bold;
+                            margin-bottom: 5px;
+                        }
+                        .we-ach-tasks{
+                            display: flex;
+                            margin-bottom: 5px;
+                            line-height: 1.6rem;
+                            .dash{
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+            .education{
+                margin-bottom: 30px;
+                .education-div{
+                    margin-bottom: 20px;
+                    .ed-course{
+                        font-size: 26px;
+                        font-weight: bold;
+                        margin-bottom: 5px;
+                    }
+                    .ed-college{
+                        font-size: 20px;
+                        font-weight: 600;
+                        margin-bottom: 5px;
+                    }
+                    .ed-duration-score{
+                        display: flex;
+                        justify-content: space-between;
+                        color: gray;
+                        font-style: italic;
+                        margin-bottom: 5px;
+                        .ed-duration{
+    
+                        }
+                        .ed-score{
+    
+                        }
+                    }
+                }
+            }
+            .languages{
+                .languages-div{
+                    .language-div{
+                        color: white;
+                        font-weight: bold;
+                        width: max-content;
+                        padding: 5px 10px;
+                        border-radius: 4px;
+                        float: left;
+                        margin-right: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .interests{
+                .interests-div{
+                    .interest-div{
+                        color: white;
+                        font-weight: bold;
+                        width: max-content;
+                        padding: 5px 10px;
+                        border-radius: 4px;
+                        float: left;
+                        margin-right: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        .right-div{
+            padding-right: 25px;
+            .skills{
+                margin-bottom: 20px;
+                .skills-div{
+                    margin-bottom: 20px;
+                    .skill-div{
+                        color: white;
+                        font-weight: bold;
+                        width: max-content;
+                        padding: 5px 10px;
+                        border-radius: 4px;
+                        float: left;
+                        margin-right: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .projects{
+                float: left;
+                .project-div{
+                    margin-bottom: 20px;
+                    .project-name{
+                        margin-right: 10px;
+                        font-size: 26px;
+                        font-weight: bold;
+                        margin-bottom: 5px;
+                    }
+                    .project-duration{
+                        font-size: 20px;
+                        font-weight: 600;
+                        font-style: italic;
+                        color: gray;
+                        margin-bottom: 5px;
+                    }
+                    .project-description{
+                        margin-bottom: 5px;
+                        line-height: 1.6rem;
+                    }
+                    .project-role{
+                        margin-bottom: 5px;
+                    }
+                    .project-team-size{
+                        margin-bottom: 5px;
+                    }
+                    .project-responsibilities{
+                        .project-responsibilities-title{
+                            font-weight: 600;;
+                        }
+                        .project-responsibility{
+                            line-height: 1.8rem;
+                            display: flex;
+                            margin-bottom: 5px;
+                            .dash{
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
