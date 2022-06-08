@@ -145,6 +145,21 @@
     
                         }
                     }
+                    .we-achievementsOrTasks{
+                        .we-ach-title{
+                            font-size: 20px;
+                            font-weight: bold;
+                            margin-bottom: 5px;
+                        }
+                        .we-ach-tasks{
+                            display: flex;
+                            margin-bottom: 5px;
+                            line-height: 1.6rem;
+                            .dash{
+                                margin-right: 5px;
+                            }
+                        }
+                    }
                 }
             }
             .languages{
@@ -233,6 +248,34 @@
                                 margin-right: 5px;
                             }
                         }
+                    }
+                }
+            }
+            .languages{
+                .languages-div{
+                    .language-div{
+                        color: white;
+                        font-weight: bold;
+                        width: max-content;
+                        padding: 5px 10px;
+                        border-radius: 4px;
+                        float: left;
+                        margin-right: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .interests{
+                .interests-div{
+                    .interest-div{
+                        color: white;
+                        font-weight: bold;
+                        width: max-content;
+                        padding: 5px 10px;
+                        border-radius: 4px;
+                        float: left;
+                        margin-right: 10px;
+                        margin-bottom: 10px;
                     }
                 }
             }

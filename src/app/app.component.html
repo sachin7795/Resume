@@ -1,4 +1,4 @@
-<div class="resume-container">
+<div class="resume-container" *ngIf="!priyaData">
   <div class="resume-header">
     <div class="profile-pic">
       <div class="pp-img">
@@ -86,6 +86,99 @@
             <div class="project-responsibilities-title" [style]="'color:'+resumeData.theme">Responsibilities</div>
             <div class="project-responsibility" *ngFor="let responsibility of project.responsibilities"><div class="dash">-</div> {{responsibility}}</div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="resume-container" *ngIf="priyaData">
+  <div class="resume-header">
+    <div class="profile-pic">
+      <div class="pp-img">
+        <img [src]="resumeData.profilePic" alt="dp">
+      </div>
+    </div>
+    <div class="basic-details">
+      <div class="name-div" [style]="'color:'+resumeData.theme">{{resumeData.name}}</div>
+      <div class="designation-div">{{resumeData.designation}}</div>
+      <div class="summary-div">{{resumeData.summary}}</div>
+    </div>
+  </div>
+  <div class="personal-details"  [style]="'background-color:'+resumeData.theme">
+    <div class="email">
+      <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#ffffff" d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"/></svg></div>
+      <div class="value">{{resumeData.email}}</div>
+    </div>
+    <div class="phone">
+      <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#ffffff" d="M320 0H64C37.5 0 16 21.5 16 48v416C16 490.5 37.5 512 64 512h256c26.5 0 48-21.5 48-48v-416C368 21.5 346.5 0 320 0zM240 447.1C240 456.8 232.8 464 224 464H159.1C151.2 464 144 456.8 144 448S151.2 432 160 432h64C232.8 432 240 439.2 240 447.1zM304 384h-224V64h224V384z"/></svg></div>
+      <div class="value">{{resumeData.phone}}</div>
+    </div>
+    <div class="address">
+      <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#ffffff" d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg></div>
+      <div class="value">{{resumeData.address}}</div>
+    </div>
+    <div class="dob">
+      <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ffffff" d="M160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32zM0 192H448V464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192zM64 304C64 312.8 71.16 320 80 320H112C120.8 320 128 312.8 128 304V272C128 263.2 120.8 256 112 256H80C71.16 256 64 263.2 64 272V304zM192 304C192 312.8 199.2 320 208 320H240C248.8 320 256 312.8 256 304V272C256 263.2 248.8 256 240 256H208C199.2 256 192 263.2 192 272V304zM336 256C327.2 256 320 263.2 320 272V304C320 312.8 327.2 320 336 320H368C376.8 320 384 312.8 384 304V272C384 263.2 376.8 256 368 256H336zM64 432C64 440.8 71.16 448 80 448H112C120.8 448 128 440.8 128 432V400C128 391.2 120.8 384 112 384H80C71.16 384 64 391.2 64 400V432zM208 384C199.2 384 192 391.2 192 400V432C192 440.8 199.2 448 208 448H240C248.8 448 256 440.8 256 432V400C256 391.2 248.8 384 240 384H208zM320 432C320 440.8 327.2 448 336 448H368C376.8 448 384 440.8 384 432V400C384 391.2 376.8 384 368 384H336C327.2 384 320 391.2 320 400V432z"/></svg></div>
+      <div class="value">{{resumeData.dob}}</div>
+    </div>
+  </div>
+  <div class="resume-body">
+    <div class="left-div">
+      <div class="work-experience">
+        <div class="section-title" [style]="'color:'+resumeData.theme">WORK EXPERIENCE</div>
+        <div class="experience-div" *ngFor="let expereince of resumeData.workExperiences">
+          <div class="we-designation">{{expereince.designation}}</div>
+          <div class="we-company">{{expereince.company}}</div>
+          <div class="we-duration">{{expereince.duration}}</div>
+          <div class="we-achievementsOrTasks">
+            <!-- <div class="we-ach-title" [style]="'color:'+resumeData.theme">Achievements/Tasks</div> -->
+            <div class="we-ach-tasks" *ngFor="let task of expereince.achievementsOrTasks"><div class="dash">-</div> {{task}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="education">
+        <div class="section-title" [style]="'color:'+resumeData.theme">EDUCATION</div>
+        <div class="education-div" *ngFor="let ed of resumeData.educations">
+          <div class="ed-course">{{ed.course}}</div>
+          <div class="ed-college">{{ed.schoolOrCollege}}</div>
+          <div class="ed-duration-score">
+            <div class="ed-duration">{{ed.duration}}</div>
+            <div class="ed-score">{{ed.score}}</div>
+          </div>
+          <div class="we-achievementsOrTasks">
+            <div class="we-ach-title" [style]="'color:'+resumeData.theme">Achievements/Tasks</div>
+            <div class="we-ach-tasks" *ngFor="let task of ed.achievementsOrTasks"><div class="dash">-</div> {{task}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right-div">
+      <div class="skills">
+        <div class="section-title" [style]="'color:'+resumeData.theme">SKILLS</div>
+        <div class="skills-div" *ngFor="let skill of resumeData.skills;let i=index;">
+          <div class="skill-div" [style]="'background-color:'+resumeData.theme" [ngClass]="{'mg-bt-20': i==resumeData.skills.length-1}">{{skill}}</div>
+        </div>
+      </div><br><br><br>
+      <div class="projects">
+        <div class="section-title" [style]="'color:'+resumeData.theme">SUMMER INTERNSHIPS</div>
+        <div class="project-div" *ngFor="let project of resumeData.projects">
+          <div class="project-name">{{project.name}}</div>
+          <div class="project-duration">({{project.duration}})</div>
+          <div class="project-description">{{project.description}}</div>
+        </div>
+      </div>
+      <div class="languages" style="float: left;width:100%;">
+        <div class="section-title" [style]="'color:'+resumeData.theme">LANGUAGES</div>
+        <div class="languages-div" *ngFor="let language of resumeData.languages;let i=index;">
+          <div class="language-div" [style]="'background-color:'+resumeData.theme" [ngClass]="{'mg-bt-20': i==resumeData.languages.length-1}">{{language}}</div>
+        </div>
+      </div><br><br><br>
+      <div class="interests" style="float: left;width:100%;">
+        <div class="section-title" [style]="'color:'+resumeData.theme">INTERESTS</div>
+        <div class="interests-div" *ngFor="let interest of resumeData.interests;let i=index;">
+          <div class="interest-div" [style]="'background-color:'+resumeData.theme" [ngClass]="{'mg-bt-20': i==resumeData.interests.length-1}">{{interest}}</div>
         </div>
       </div>
     </div>

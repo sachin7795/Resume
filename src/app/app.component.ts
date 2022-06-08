@@ -15,6 +15,7 @@ export class AppComponent {
 
   ngOnInit() {
     this.resumeData = this.sachinData;
+    this.priyaData = null;
   }
 
   sachinData: any = {
@@ -334,6 +335,125 @@ export class AppComponent {
         responsibilities: [
           'Managed the feature development and defect backlog on a daily basis to ensure that priorities adhere to the strategic direction outlined by the [Product Manager'
         ]
+      }
+    ],
+    languages: ['English','Hindi'],
+    interests: ['Cooking', 'Yoga', 'Travelling', 'Food']
+  }
+
+  priyaData: any = {
+    theme: '#088F8F',
+    profilePic: 'assets/priya.jpg',
+    name: 'Priya Singh',
+    designation: 'Business Development Executive',
+    summary: '3+ years of experience',
+    email: 'priyaljoe@gmail.com ',
+    phone: '9340136541',
+    address: 'Indore',
+    dob: '11 Oct, 1997',
+    workExperiences: [
+      {
+        designation: 'Business Development Executive',
+        company: 'Vishesh Jupiter Hospital',
+        duration: 'May, 2022 - Present',
+        achievementsOrTasks: []
+      },
+      {
+        designation: 'Business Development Executive',
+        company: 'Dr. Agrawal Eye Hospital, Indore',
+        duration: 'Dec, 2021 - Apr, 2022',
+        achievementsOrTasks: []
+      },
+      {
+        designation: 'Assistant in Business Development',
+        company: 'Shalby Multispecialty Hospital, ',
+        duration: 'Jan, 2020 - Nov, 2021',
+        achievementsOrTasks: []
+      }
+    ],
+    educations: [
+      {
+        course:'M.B.A.(Hospital Administration)',
+        schoolOrCollege: 'Institute of Management Studies, DAVV, Indore',
+        duration: '07/2018 - 05/2020',
+        score: '8.22 CGPA',
+        achievementsOrTasks: [
+          'Was a Delegate in the event Health Conclave held on September 21, 2019.',
+          'Participated in 2nd National Level NABH Workshop on “NABH Accreditation Improving Quality and Patient Care” held at Sri Aurobindo Institute of Management & Science, Indore'
+        ]
+      },
+      {
+        course:'B.B.A.(Hospital Administration)',
+        schoolOrCollege: 'Institute of Management Studies, DAVV, Indore',
+        duration: '07/2015 - 05/2018',
+        score: '76.5%',
+        achievementsOrTasks: [
+          'Was a Delegate in the event Health Conclave held on March 27, 2017.',
+          'Participated in seminar on “Value Based Management Education”'
+        ]
+      },
+      {
+        course:'XII Standard(CBSE)',
+        schoolOrCollege: 'St Mary’s H.S. School, MHOW',
+        duration: '04/2014 - 03/2015',
+        score: '76.6%',
+        achievementsOrTasks: [
+          'Scored 13th Rank in the School in NOF’s International Biology Olympiad in 2015.',
+          'Secured first position in the United Carol Singing competition organized by ICYM.'
+        ]
+      },
+      {
+        course:'X Standard(CBSE)',
+        schoolOrCollege: 'St Mary’s H.S. School, MHOW',
+        duration: '04/2012 - 03/2013',
+        score: '7.6 CGPA',
+        achievementsOrTasks: [
+          'Won First prize in Shot-put Competition held in St. Mary’s H.S. School.',
+          'Won First prize in 200m race Competition held in St. Mary’s H.S. School.'
+        ]
+      }
+    ],
+    skills: [
+      'Business Development',
+      'Human Resource',
+      'Academic Counseling',
+      'Coordinating Hospital Visits of Institute',
+      'Reviewing Contract',
+      'Maintaining Revenue Record',
+      'Giving Hospital Orientation to Institutes',
+      'Generating Lead',
+      'Fostering B2B relationships',
+      'Facility Rounds',
+      'Assisted in completing joining formalities of Medical and non-medical staff',
+      'Assisted monthly induction program',
+      'Interview calls to candidates',
+      'Volunteered employee engagement activities'
+    ],
+    projects: [
+      {
+        name: 'Bombay Hospital, Indore',
+        duration: '13/05/19 - 30/6/19',
+        description: 'Audit of Turn Around Time in Operation Theatre'
+      },
+      {
+        name: 'Bombay Hospital, Indore',
+        duration: '13/05/19 - 30/6/19',
+        description: 'Study of NABH Quality Indicator (Mortality Rate) in ICU’s'
+      },
+      {
+        name: 'Sri Aurobindo Institute of Medical Sciences',
+        duration: '27/05/17 - 10/07/17',
+        description: 'General Administration in Hospital'
+      },
+      {
+        name: 'Sri Aurobindo Institute of Medical Sciences',
+        duration: '27/05/17 - 10/07/17',
+        description: 'Turn Around Time in Pathology'
+      },
+      {
+        name: 'Holamed Healthcare Technologies PVT. LTD.',
+        duration: 'July, 2015 - August, 2015',
+        description: 'Marketing and Publicity'
       }
     ],
     languages: ['English','Hindi'],
