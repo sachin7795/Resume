@@ -14,7 +14,7 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    this.resumeData = this.sachinData;
+    this.resumeData = this.avantikaData;
     this.priyaData = null;
   }
 
@@ -188,7 +188,7 @@ export class AppComponent {
     profilePic: 'assets/avantika.jpg',
     name: 'Avantika Vyas',
     designation: 'Business Analyst',
-    summary: 'With 4+ years of experience of working in Service and FinTech domains with SAFe-Scaled Agile Scrum model with the ability to work independently and manage business expectations within a delivery-focused approach with team of 10+ resources.',
+    summary: 'With 4+ years of experience of working in Service and FinTech domains with SAFe-Scaled Agile Scrum model with the ability to work independently and manage business expectations within a delivery-focused approach with a team of 10+ cross-functional resources.',
     email: 'avantika.vyas21@gmail.com',
     phone: '8602699810',
     address: 'Indore',
@@ -200,9 +200,10 @@ export class AppComponent {
         duration: '10/2021 - Present',
         achievementsOrTasks: [
           'Responsible for gathering, validating and documenting business requirements​ while working for a US client for development of a system on Salesforce for better management of tasks at their end.',
+          'Worked with UI/UX team in close alignment to determine flow and ensure excellent customer experience.',
           'Responsible for Effective stakeholder engagement.',
           'Documented the initiatives and prepared a complete product roadmap for an ambitious project for client from US.',
-          'Demonstrated Decision making ability to make decisions around things such as requirement prioritisation, scope, assessing viability of solutions etc.'
+          'Demonstrated Decision making ability to make decisions around things such as requirement prioritisation, scope, assessing viability of solutions etc.',
         ]
       },
       {
@@ -213,8 +214,9 @@ export class AppComponent {
           'Requirement elicitation and successful end to end integration of one of prominent portal of organization.',
           'With above mentioned project was able to grab opportunity (My team was chosen from 10 other teams) for integration of whole another product within organization.',
           'Elicitation of Business functional requirements from stakeholders and capturing of NFRs into Product Backlog by continuously refining and prioritizing it, along with Product Management team for scrum team to work on.',
+          'Worked with Network, CI and Sales teams to ensure excellent customer experience and services post product launching',
           'Extensive Agile and Scrum experience.',
-          'Ability to learn and adapt to complex situations, demonstrated with the success of several products and projects'
+          'Ability to learn and adapt to complex situations, demonstrated with the success of several products and projects',
         ]
       },
       {
@@ -264,15 +266,16 @@ export class AppComponent {
     ],
     skills: [
       'Product Backlog Creation & Refinement',
+      'UI/UX',
       'Stakeholder Communication & Management',
       'Payment Processing',
       'FinTech',
       'PCI - DSS',
       'Product Ownership',
       'Epic & Feature Creation',
-      'User Story Creation',
-      'Requirements Gathering',
       'Product Roadmap Creation',
+      'Requirements Gathering',
+      'User Story Creation',
       'JIRA',
       'Agile Methodologies',
       'Product Management',
@@ -338,7 +341,8 @@ export class AppComponent {
       }
     ],
     languages: ['English','Hindi'],
-    interests: ['Cooking', 'Yoga', 'Travelling', 'Food']
+    interests: ['Cooking', 'Yoga', 'Travelling', 'Food'],
+    domain: ['PAYMENT','SALESFORCE']
   }
 
   priyaData: any = {
