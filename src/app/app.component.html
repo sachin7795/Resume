@@ -144,7 +144,19 @@
           </div>
         </div>
       </div>
-      <div class="education">
+      <!-- <div class="languages" style="float: left;width:100%;">
+        <div class="section-title" [style]="'color:'+resumeData.theme">LANGUAGES</div>
+        <div class="languages-div" *ngFor="let language of resumeData.languages;let i=index;">
+          <div class="language-div" [style]="'background-color:'+resumeData.theme" [ngClass]="{'mg-bt-20': i==resumeData.languages.length-1}">{{language}}</div>
+        </div>
+      </div><br><br><br> -->
+      <!-- <div class="interests" style="float: left;width:100%;">
+        <div class="section-title" [style]="'color:'+resumeData.theme">INTERESTS</div>
+        <div class="interests-div" *ngFor="let interest of resumeData.interests;let i=index;">
+          <div class="interest-div" [style]="'background-color:'+resumeData.theme" [ngClass]="{'mg-bt-20': i==resumeData.interests.length-1}">{{interest}}</div>
+        </div>
+      </div> -->
+      <!-- <div class="education">
         <div class="section-title" [style]="'color:'+resumeData.theme">EDUCATION</div>
         <div class="education-div" *ngFor="let ed of resumeData.educations">
           <div class="ed-course">{{ed.course}}</div>
@@ -158,7 +170,7 @@
             <div class="we-ach-tasks" *ngFor="let task of ed.achievementsOrTasks"><div class="dash">-</div> {{task}}</div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="right-div">
       <div class="skills">
@@ -173,6 +185,33 @@
           <div class="project-name">{{project.name}}</div>
           <div class="project-duration">({{project.duration}})</div>
           <div class="project-description">{{project.description}}</div>
+        </div>
+      </div>
+      <!-- <div class="languages" style="float: left;width:100%;">
+        <div class="section-title" [style]="'color:'+resumeData.theme">LANGUAGES</div>
+        <div class="languages-div" *ngFor="let language of resumeData.languages;let i=index;">
+          <div class="language-div" [style]="'background-color:'+resumeData.theme" [ngClass]="{'mg-bt-20': i==resumeData.languages.length-1}">{{language}}</div>
+        </div>
+      </div><br><br><br>
+      <div class="interests" style="float: left;width:100%;">
+        <div class="section-title" [style]="'color:'+resumeData.theme">INTERESTS</div>
+        <div class="interests-div" *ngFor="let interest of resumeData.interests;let i=index;">
+          <div class="interest-div" [style]="'background-color:'+resumeData.theme" [ngClass]="{'mg-bt-20': i==resumeData.interests.length-1}">{{interest}}</div>
+        </div>
+      </div> -->
+      <div class="education">
+        <div class="section-title" [style]="'color:'+resumeData.theme">EDUCATION</div>
+        <div class="education-div" *ngFor="let ed of resumeData.educations">
+          <div class="ed-course">{{ed.course}}</div>
+          <div class="ed-college">{{ed.schoolOrCollege}}</div>
+          <div class="ed-duration-score">
+            <div class="ed-duration">{{ed.duration}}</div>
+            <div class="ed-score">{{ed.score}}</div>
+          </div>
+          <div class="we-achievementsOrTasks">
+            <div class="we-ach-title" [style]="'color:'+resumeData.theme" *ngIf="ed.achievementsOrTasks && ed.achievementsOrTasks.length>0">Achievements/Tasks</div>
+            <div class="we-ach-tasks" *ngFor="let task of ed.achievementsOrTasks"><div class="dash">-</div> {{task}}</div>
+          </div>
         </div>
       </div>
       <div class="languages" style="float: left;width:100%;">

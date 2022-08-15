@@ -14,8 +14,8 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    this.resumeData = this.avantikaData;
-    this.priyaData = null;
+    this.priyaData = this.vidhiData;
+    this.resumeData = this.priyaData;
   }
 
   sachinData: any = {
@@ -188,18 +188,18 @@ export class AppComponent {
     profilePic: 'assets/avantika.jpg',
     name: 'Avantika Vyas',
     designation: 'Business Analyst',
-    summary: 'With 4+ years of experience of working in Service and FinTech domains with SAFe-Scaled Agile Scrum model with the ability to work independently and manage business expectations within a delivery-focused approach with a team of 10+ cross-functional resources.',
+    summary: 'With 4+ years of experience of working in Salesforce and FinTech domains with SAFe-Scaled Agile Scrum model with the ability to work independently and manage business expectations within a delivery-focused approach with a team of 10+ cross-functional resources.',
     email: 'avantika.vyas21@gmail.com',
     phone: '8602699810',
     address: 'Indore',
     dob: '01 Jan, 1996',
     workExperiences: [
       {
-        designation: 'Business Analyst',
+        designation: 'Salesforce Business Analyst',
         company: 'InfoBeans Technologies LTD.',
         duration: '10/2021 - Present',
         achievementsOrTasks: [
-          'Responsible for gathering, validating and documenting business requirements​ while working for a US client for development of a system on Salesforce for better management of tasks at their end.',
+          'Responsible for gathering, validating and documenting business requirements​ along with managing salesforce requeriments while working for a US client for development of a system on Salesforce for better management of tasks at their end.',
           'Worked with UI/UX team in close alignment to determine flow and ensure excellent customer experience.',
           'Responsible for Effective stakeholder engagement.',
           'Documented the initiatives and prepared a complete product roadmap for an ambitious project for client from US.',
@@ -283,7 +283,8 @@ export class AppComponent {
       'Confluence',
       'Rally',
       'Leadership Skills',
-      'Excellent Communication Skills'
+      'Excellent Communication Skills',
+      'Salesforce',
     ],
     projects: [
       {
@@ -291,9 +292,9 @@ export class AppComponent {
         duration: '11/2021 - Present',
         description: 'Development of system for personnel and processes management for a non -profit organization in US',
         teamSize: '22',
-        role: 'Business Analyst',
+        role: 'Salesforce Business Analyst',
         responsibilities: [
-          'Gathering, validating and documenting business requirements​.',
+          'Gathering, validating and documenting business and Salesforce requirements​.',
           'Creating and managing backlog of requirements in the form of user stories.',
           'Identifying issues, risks and benefits of existing and proposed solutions and outlining business impacts.',
           'Creating functional specifications for solutions​.'
@@ -464,4 +465,630 @@ export class AppComponent {
     interests: ['Cooking', 'Yoga', 'Travelling', 'Food']
   }
 
+  sachinAngularData: any = {
+    theme: '#088F8F',
+    profilePic: 'assets/sachin.jpg',
+    name: 'Sachin Singh',
+    designation: 'Senior Software Engineer',
+    summary: '4+ years of experience as a Full Stack Developer',
+    email: 'sachinx1000@gmail.com',
+    phone: '8962917734',
+    address: '482, Omaxe Hills, Indore, India',
+    dob: '07 July, 1995',
+    workExperiences: [
+      {
+        designation: 'Senior Software Engineer',
+        company: 'InfoBeans Technologies LTD.',
+        duration: '04/2022 - Present',
+        achievementsOrTasks: [
+          'Full Stack Development using Angular + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
+          'Client Communication',
+          'Efforts Estimation',
+          'Acting lead for UI team of 4'
+        ]
+      },
+      {
+        designation: 'Software Engineer',
+        company: 'InfoBeans Technologies LTD.',
+        duration: '10/2020 - 03/2022',
+        achievementsOrTasks: [
+          'Full Stack Development using Angular + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
+          'Client Communication',
+          'Efforts Estimation',
+          'Acting lead for UI team of 4'
+        ]
+      },
+      {
+        designation: 'Associate Software Engineer',
+        company: 'InfoBeans Technologies LTD.',
+        duration: '07/2019 - 09/2020',
+        achievementsOrTasks: [
+          'Full Stack Development using Angular + Spring Boot + MySQL stack and functional unit testing',
+          'Front End Development using Angular',
+          'Client Communication',
+          'Efforts Estimation',
+          'Acting lead for UI team of 5'
+        ]
+      },
+      {
+        designation: 'Trainee Software Engineer',
+        company: 'InfoBeans Technologies LTD.',
+        duration: '07/2018 - 06/2019',
+        achievementsOrTasks: [
+          'Front End Development using Angular',
+          'Client Communication',
+          'Functional Unit Testing'
+        ]
+      }
+    ],
+    educations: [
+      {
+        course:'M.Tech(Integrated)',
+        schoolOrCollege: 'International Institute of Professional Studies, DAVV, Indore',
+        duration: '07/2013 - 12/2018',
+        score: '8.64'
+      },
+      {
+        course:'XII Standard',
+        schoolOrCollege: 'Kendriya Vidhyalaya, MHOW',
+        duration: '04/2011 - 03/2012',
+        score: '84.4%'
+      },
+      {
+        course:'X Standard',
+        schoolOrCollege: 'Kendriya Vidhyalaya, MHOW',
+        duration: '04/2009 - 03/2010',
+        score: '8.8'
+      }
+    ],
+    skills: ['HTML','CSS','JavaScript','Angular','ReactJS','VueJS','NodeJS','MongoDB','ExpressJS','BootStrap','Front End Development','Full Stack Development','Communication','Team Work','Effort Estimation','TypeScript','Leadership'],
+    projects: [
+      {
+        name: 'Vehicle Commerce',
+        duration: '12/2020 - Present',
+        description: 'An E-commerce web application to buy and sell used cars',
+        teamSize: '19',
+        role: 'Full stack Developer (Angular, NodeJS, MongoDB, ExpressJS)',
+        responsibilities: [
+          'UI team lead',
+          'Client Communication',
+          'Full Stack Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Claim Settlement Portal',
+        duration: '12/2019 - 12/2020',
+        description: 'A web portal to provide online services to insurers, Healthcare, Providers and Employers',
+        teamSize: '5',
+        role: 'Front End Developer (Angular 9)',
+        responsibilities: [
+          'Team lead',
+          'Client Communication',
+          'Front End Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Providers Onboarding Portal',
+        duration: '06/2020 - 09/2020',
+        description: 'A web application used to onboard the new providers',
+        teamSize: '4',
+        role: 'Front End Developer (Angular 9)',
+        responsibilities: [
+          'Team lead',
+          'Client Communication',
+          'Front End Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Exit Portal',
+        duration: '03/2020 - 05/2020',
+        description: 'A web application to automate the exit process of an employee in an organization',
+        teamSize: '7',
+        role: 'Front End Developer (Angular)',
+        responsibilities: [
+          'Team lead',
+          'Client Communication',
+          'Front End Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Dynamic Reward Offering Application',
+        duration: '05/2019 - 12/2019',
+        description: 'A web application with admin support used to track transactions and provide dynamic rewards and offers',
+        teamSize: '13',
+        role: 'Full Stack Developer (Angular, Spring Boot, MySQL)',
+        responsibilities: [
+          'Client Communication',
+          'Full Stack Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Storage Automation Tool',
+        duration: '07/2018 - 04/2019',
+        description: 'A software solution that helps to automate storage management tasks such as provisioning, migration and cloning storage',
+        teamSize: '11',
+        role: 'Front End Developer (Angular 4)',
+        responsibilities: [
+          'Client Communication',
+          'Front End Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      }
+    ],
+    languages: ['English','Hindi'],
+    interests: ['Outoor Games','Drawing','Workout', 'Yoga', 'Running', 'Travelling', 'Food']
+  }
+
+  sachinReactData: any = {
+    theme: '#088F8F',
+    profilePic: 'assets/sachin.jpg',
+    name: 'Sachin Singh',
+    designation: 'Senior Software Engineer',
+    summary: '4+ years of experience as a Full Stack Developer',
+    email: 'sachinx1000@gmail.com',
+    phone: '8962917734',
+    address: '482, Omaxe Hills, Indore, India',
+    dob: '07 July, 1995',
+    workExperiences: [
+      {
+        designation: 'Senior Software Engineer',
+        company: 'InfoBeans Technologies LTD.',
+        duration: '04/2022 - Present',
+        achievementsOrTasks: [
+          'Full Stack Development using ReactJS + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
+          'Client Communication',
+          'Efforts Estimation',
+          'Acting lead for UI team of 4'
+        ]
+      },
+      {
+        designation: 'Software Engineer',
+        company: 'InfoBeans Technologies LTD.',
+        duration: '10/2020 - 03/2022',
+        achievementsOrTasks: [
+          'Full Stack Development using ReactJS + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
+          'Client Communication',
+          'Efforts Estimation',
+          'Acting lead for UI team of 4'
+        ]
+      },
+      {
+        designation: 'Associate Software Engineer',
+        company: 'InfoBeans Technologies LTD.',
+        duration: '07/2019 - 09/2020',
+        achievementsOrTasks: [
+          'Full Stack Development using ReactJS + Spring Boot + MySQL stack and functional unit testing',
+          'Front End Development using ReactJS',
+          'Client Communication',
+          'Efforts Estimation',
+          'Acting lead for UI team of 5'
+        ]
+      },
+      {
+        designation: 'Trainee Software Engineer',
+        company: 'InfoBeans Technologies LTD.',
+        duration: '07/2018 - 06/2019',
+        achievementsOrTasks: [
+          'Front End Development using ReactJS',
+          'Client Communication',
+          'Functional Unit Testing'
+        ]
+      }
+    ],
+    educations: [
+      {
+        course:'M.Tech(Integrated)',
+        schoolOrCollege: 'International Institute of Professional Studies, DAVV, Indore',
+        duration: '07/2013 - 12/2018',
+        score: '8.64'
+      },
+      {
+        course:'XII Standard',
+        schoolOrCollege: 'Kendriya Vidhyalaya, MHOW',
+        duration: '04/2011 - 03/2012',
+        score: '84.4%'
+      },
+      {
+        course:'X Standard',
+        schoolOrCollege: 'Kendriya Vidhyalaya, MHOW',
+        duration: '04/2009 - 03/2010',
+        score: '8.8'
+      }
+    ],
+    skills: ['HTML','CSS','JavaScript','ReactJS','Angular','VueJS','NodeJS','MongoDB','ExpressJS','BootStrap','Front End Development','Full Stack Development','Communication','Team Work','Effort Estimation','TypeScript','Leadership'],
+    projects: [
+      {
+        name: 'Vehicle Commerce',
+        duration: '12/2020 - Present',
+        description: 'An E-commerce web application to buy and sell used cars',
+        teamSize: '19',
+        role: 'Full stack Developer (ReactJS, NodeJS, MongoDB, ExpressJS)',
+        responsibilities: [
+          'UI team lead',
+          'Client Communication',
+          'Full Stack Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Claim Settlement Portal',
+        duration: '12/2019 - 12/2020',
+        description: 'A web portal to provide online services to insurers, Healthcare, Providers and Employers',
+        teamSize: '5',
+        role: 'Front End Developer (ReactJS)',
+        responsibilities: [
+          'Team lead',
+          'Client Communication',
+          'Front End Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Providers Onboarding Portal',
+        duration: '06/2020 - 09/2020',
+        description: 'A web application used to onboard the new providers',
+        teamSize: '4',
+        role: 'Front End Developer (ReactJS)',
+        responsibilities: [
+          'Team lead',
+          'Client Communication',
+          'Front End Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Exit Portal',
+        duration: '03/2020 - 05/2020',
+        description: 'A web application to automate the exit process of an employee in an organization',
+        teamSize: '7',
+        role: 'Front End Developer (ReactJS)',
+        responsibilities: [
+          'Team lead',
+          'Client Communication',
+          'Front End Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Dynamic Reward Offering Application',
+        duration: '05/2019 - 12/2019',
+        description: 'A web application with admin support used to track transactions and provide dynamic rewards and offers',
+        teamSize: '13',
+        role: 'Full Stack Developer (ReactJS, Spring Boot, MySQL)',
+        responsibilities: [
+          'Client Communication',
+          'Full Stack Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Storage Automation Tool',
+        duration: '07/2018 - 04/2019',
+        description: 'A software solution that helps to automate storage management tasks such as provisioning, migration and cloning storage',
+        teamSize: '11',
+        role: 'Front End Developer (ReactJS)',
+        responsibilities: [
+          'Client Communication',
+          'Front End Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      }
+    ],
+    languages: ['English','Hindi'],
+    interests: ['Outoor Games','Drawing','Workout', 'Yoga', 'Running', 'Travelling', 'Food']
+  }
+
+  sachinAllTechData: any = {
+    theme: '#088F8F',
+    profilePic: 'assets/sachin.jpg',
+    name: 'Sachin Singh',
+    designation: 'Senior Software Engineer',
+    summary: '4+ years of experience as a Full Stack Developer(MEAN/MERN)',
+    email: 'sachinx1000@gmail.com',
+    phone: '8962917734',
+    address: '482, Omaxe Hills, Indore, India',
+    dob: '07 July, 1995',
+    workExperiences: [
+      {
+        designation: 'Senior Software Engineer',
+        company: 'InfoBeans Technologies LTD.',
+        duration: '04/2022 - Present',
+        achievementsOrTasks: [
+          'Full Stack Development using Angular + rxjs + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
+          'Full Stack Development using ReactJS + Redux + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
+          'Client Communication',
+          'Efforts Estimation',
+          'Acting lead for UI team of 4'
+        ]
+      },
+      {
+        designation: 'Software Engineer',
+        company: 'InfoBeans Technologies LTD.',
+        duration: '10/2020 - 03/2022',
+        achievementsOrTasks: [
+          'Full Stack Development using Angular + rxjs + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
+          'Full Stack Development using ReactJS + Redux + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
+          'Client Communication',
+          'Efforts Estimation',
+          'Acting lead for UI team of 4'
+        ]
+      },
+      {
+        designation: 'Associate Software Engineer',
+        company: 'InfoBeans Technologies LTD.',
+        duration: '07/2019 - 09/2020',
+        achievementsOrTasks: [
+          'Full Stack Development using Angular + Spring Boot + MySQL stack and functional unit testing',
+          'Front End Development using ReactJS and Redux',
+          'Client Communication',
+          'Efforts Estimation',
+          'Acting lead for UI team of 5'
+        ]
+      },
+      {
+        designation: 'Trainee Software Engineer',
+        company: 'InfoBeans Technologies LTD.',
+        duration: '07/2018 - 06/2019',
+        achievementsOrTasks: [
+          'Front End Development using Angular',
+          'Front End Development using ReactJS and Redux',
+          'Client Communication',
+          'Functional Unit Testing'
+        ]
+      }
+    ],
+    educations: [
+      {
+        course:'M.Tech(Integrated)',
+        schoolOrCollege: 'International Institute of Professional Studies, DAVV, Indore',
+        duration: '07/2013 - 12/2018',
+        score: '8.64'
+      },
+      {
+        course:'XII Standard',
+        schoolOrCollege: 'Kendriya Vidhyalaya, MHOW',
+        duration: '04/2011 - 03/2012',
+        score: '84.4%'
+      },
+      {
+        course:'X Standard',
+        schoolOrCollege: 'Kendriya Vidhyalaya, MHOW',
+        duration: '04/2009 - 03/2010',
+        score: '8.8'
+      }
+    ],
+    skills: ['HTML','CSS','JavaScript','Typescript','Angular 2+(All versions)', 'Angular Material', 'rxjs','ReactJS','Redux', 'react-router', 'AntDesign','VueJS','NodeJS','MongoDB','ExpressJS','BootStrap','Git','Front End Development','Full Stack Development','Communication','Team Work','Effort Estimation','Leadership'],
+    projects: [
+      {
+        name: 'Vehicle Commerce',
+        duration: '12/2020 - Present',
+        description: 'An E-commerce web application to buy and sell used cars',
+        teamSize: '19',
+        role: 'Full stack Developer using MEAN/MERN (ReactJS, Redux, Angular, rxjs, NodeJS, MongoDB, ExpressJS)',
+        responsibilities: [
+          'UI team lead',
+          'Client Communication',
+          'Full Stack Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Claim Settlement Portal',
+        duration: '12/2019 - 12/2020',
+        description: 'A web portal to provide online services to insurers, Healthcare, Providers and Employers',
+        teamSize: '5',
+        role: 'Front End Developer using Angular, Angular Material and rxjs',
+        responsibilities: [
+          'Team lead',
+          'Client Communication',
+          'Front End Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Providers Onboarding Portal',
+        duration: '06/2020 - 09/2020',
+        description: 'A web application used to onboard the new providers',
+        teamSize: '4',
+        role: 'Front End Developer using ReactJS, Redux, Ant Design and react-router',
+        responsibilities: [
+          'Team lead',
+          'Client Communication',
+          'Front End Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Exit Portal',
+        duration: '03/2020 - 05/2020',
+        description: 'A web application to automate the exit process of an employee in an organization',
+        teamSize: '7',
+        role: 'Front End Developer using ReactJS, Redux, Ant Design and react-router',
+        responsibilities: [
+          'Team lead',
+          'Client Communication',
+          'Front End Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Dynamic Reward Offering Application',
+        duration: '05/2019 - 12/2019',
+        description: 'A web application with admin support used to track transactions and provide dynamic rewards and offers',
+        teamSize: '13',
+        role: 'Full Stack Developer using Angular, Angular Material, Spring Boot and MySQL',
+        responsibilities: [
+          'Client Communication',
+          'Full Stack Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      },
+      {
+        name: 'Storage Automation Tool',
+        duration: '07/2018 - 04/2019',
+        description: 'A software solution that helps to automate storage management tasks such as provisioning, migration and cloning storage',
+        teamSize: '11',
+        role: 'Front End Developer using Angular, Angular Material, DevExtreme and rxjs',
+        responsibilities: [
+          'Client Communication',
+          'Front End Development',
+          'Efforts Estimation',
+          'Unit testing'
+        ]
+      }
+    ],
+    languages: ['English','Hindi'],
+    interests: ['Outoor Games','Drawing','Workout', 'Yoga', 'Running', 'Travelling', 'Food']
+  }
+
+  vidhiData: any = {
+    theme: '#088F8F',
+    profilePic: 'assets/vidhi.jpg',
+    name: 'Vidhi Sharma',
+    designation: 'Executive Operations',
+    summary: '3+ years of experience',
+    email: 'sharmavidhi156.vs@gmail.com ',
+    phone: '6260827828',
+    address: 'Indore',
+    dob: '15 June, 1996',
+    workExperiences: [
+      {
+        designation: 'Executive Operations',
+        company: 'Centre For Sight Eye Hospital',
+        duration: 'March, 2021 - Present',
+        achievementsOrTasks: [
+          'Monitor and track OPD, IPD flows to optimise care delivery system to patients by taking necessary corrective and preventive actions, feedback analysis.',
+          'Complete patient assessment and communication to make them understand about surgeries, procedures, their packages, pre and post op instructions.',
+          'Coordination and communication with doctors, staffs, anaesthetist and patients across the centres for onsite and referral surgeries.',
+          'Preparing daily operations reports (DOR) (DCR)and monthly reports related to daily operational activities and services to enhance patient satisfaction and clinical efficiencies.',
+          'Successfully achieved monthly, quarterly hospital targets.',
+          'Assist in making Daily Accounting sheet (DAS) and analysing hospital targets achieved on pro rata basis.',
+          'Handling and processing cashless claims (Mediclaim) and discharges for patients.',
+          'Coordination with third Party Assurer to apply correct benefit for co-pays, coinsurance, and deductibles.',
+          "Liaison with PSU’s (Public Sector Units) such as ECHS, CGHS, RRCAT, FCI etc for OPD and IPD referrals.",
+          "Aiding in development and betterment of SOP'S for patient management and process workflow.",
+          "Implementing a new patient care process that increased patient satisfaction this year with a google review rating achieved of 4.9.",
+          "Training to clinical and non-clinical personnel on matters such as proper charting and documentation, correct procedure identification and diagnosis, coding, and claims submission guidelines.",
+          "Assisted in doing necessary preparation for NABH assessment held in February 2022.",
+          "Maintaining all medical records both in the filing room as well as on the electronic medical records system.",
+          "Documenting patient medical information, case histories and insurance details to facilitate smooth processing.",
+
+]
+      },
+      {
+        designation: 'Executive Quality',
+        company: 'Shalby Hospital, Jaipur',
+        duration: 'Jan, 2020 - Sept, 2020',
+        achievementsOrTasks: [
+          "Conducted Active audits in wards, ICU’s , Cath Labs, Pathology, Pharmacy, ER Rooms and made monthly compliance reports",
+          "Identified gaps, develop action plans under the guidance of in- charge of the hospital and monitor NABH quality compliance standards",
+          "Formulated, updated and implemented quality indicators in various departments",
+          "Conducted Daily Facility Rounds",
+          "Formulated contingency planning in hospital",
+          "Encompassed patient complaint investigation, final determination and corrective actions.",
+          "Imparted training on various topics such as emergency codes of hospital, Hand hygiene steps, Bio Medical Waste management (BMW)",
+          "Assisted in completing joining formalities of Medical and non-medical staff",
+          "Assisted monthly induction programmed. Volunteered employee engagement activities.",
+          "Audited doctors and nurses joining documents.",
+        ]
+      }, 
+    ],
+    educations: [
+      {
+        course:'M.B.A.(Hospital Administration)',
+        schoolOrCollege: 'Institute of Management Studies, DAVV, Indore',
+        duration: '07/2018 - 05/2020',
+        score: '8.22 CGPA',
+        achievementsOrTasks: [
+          'Completed Administrative Training at Institute of Management Studies (IMS), DAVV from 21 May 2018 to 30 June 2018',
+          'Was a Delegate in the event Health Conclave held on September 21, 2019.',
+          'Participated in 2nd National Level NABH Workshop on “NABH Accreditation Improving Quality and Patient Care” held at Sri Aurobindo Institute of Management & Science, Indore'
+        ]
+      },
+      {
+        course:'B.B.A.(Hospital Administration)',
+        schoolOrCollege: 'Institute of Management Studies, DAVV, Indore',
+        duration: '07/2015 - 05/2018',
+        score: '73.5%',
+        achievementsOrTasks: [
+          'Was a Delegate in the event Health Conclave held on March 27, 2017.',
+          'Participated in seminar on “Value Based Management Education”'
+        ]
+      },
+      {
+        course:'XII Standard(CBSE)',
+        schoolOrCollege: 'King George H.S School, Dewas',
+        duration: '04/2013 - 03/2014',
+        score: '75.5%', 
+      },
+      {
+        course:'X Standard(CBSE)',
+        schoolOrCollege: 'Vindhyachal Academy School, Dewas',
+        duration: '04/2012 - 03/2013',
+        score: '7.0 CGPA',
+      }
+    ],
+    skills: [
+      'Interpersonal Communication',
+      'Process Improvement',
+      'Service Excellence',
+      'Six Sigma Green Belt',
+      'Handling cashless claims',
+      "Liasoning with TPA's and PSU's",
+      'Strategic Planning',
+      'Quality Management',
+      'Patient Satisfaction',
+      'Facility Rounds',
+      'Training and Development ',
+      'Microsoft Office',
+    ],
+    projects: [
+      {
+        name: 'Shalby Hospital, Jaipur',
+        duration: '09/01/20 - 09/03/20',
+        description: 'A study On Attitude and Knowledge of Employees On NABH Accreditation'
+      },
+      {
+        name: 'Bombay Hospital, Indore',
+        duration: '13/05/19 - 30/06/19',
+        description: 'Audit on Turn Around Time of Hospital Pharmacy for dispensing medicines in ICU'
+      },
+      {
+        name: 'Bombay Hospital, Indore',
+        duration: '13/05/19 - 30/6/19',
+        description: 'Turn Around Time of Receiving Blood request to dispatching blood unit in Blood bank'
+      },
+      {
+        name: 'Bombay Hospital, Indore',
+        duration: '27/05/17 - 16/07/17',
+        description: 'Departmental Training in Mediclaim / Marketing Department'
+      },
+
+      
+    ],
+    languages: ['English','Hindi'],
+    interests: ['Cooking', 'Yoga', 'Travelling', 'Food']
+  }
 }

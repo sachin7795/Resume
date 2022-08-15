@@ -192,7 +192,7 @@
             }
         }
         .right-div{
-            padding-right: 25px;
+            padding-right: 50px;
             .skills{
                 margin-bottom: 20px;
                 .skills-div{
@@ -211,6 +211,7 @@
             }
             .projects{
                 float: left;
+                margin-bottom: 20px;
                 .project-div{
                     margin-bottom: 20px;
                     .project-name{
@@ -276,6 +277,51 @@
                         float: left;
                         margin-right: 10px;
                         margin-bottom: 10px;
+                    }
+                }
+            }
+            .education{
+                margin-bottom: 20px;
+                float: left;
+                .education-div{
+                    margin-bottom: 20px;
+                    .ed-course{
+                        font-size: 26px;
+                        font-weight: bold;
+                        margin-bottom: 5px;
+                    }
+                    .ed-college{
+                        font-size: 20px;
+                        font-weight: 600;
+                        margin-bottom: 5px;
+                    }
+                    .ed-duration-score{
+                        display: flex;
+                        justify-content: space-between;
+                        color: gray;
+                        font-style: italic;
+                        margin-bottom: 5px;
+                        .ed-duration{
+    
+                        }
+                        .ed-score{
+    
+                        }
+                    }
+                    .we-achievementsOrTasks{
+                        .we-ach-title{
+                            font-size: 20px;
+                            font-weight: bold;
+                            margin-bottom: 5px;
+                        }
+                        .we-ach-tasks{
+                            display: flex;
+                            margin-bottom: 5px;
+                            line-height: 1.6rem;
+                            .dash{
+                                margin-right: 5px;
+                            }
+                        }
                     }
                 }
             }
