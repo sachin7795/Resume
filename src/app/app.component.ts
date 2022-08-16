@@ -14,8 +14,8 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    this.priyaData = this.vidhiData;
-    this.resumeData = this.priyaData;
+    this.priyaData = null;
+    this.resumeData = this.sachinAllTechData;
   }
 
   sachinData: any = {
@@ -797,10 +797,10 @@ export class AppComponent {
 
   sachinAllTechData: any = {
     theme: '#088F8F',
-    profilePic: 'assets/sachin.jpg',
+    profilePic: 'assets/sachin2.jpg',
     name: 'Sachin Singh',
     designation: 'Senior Software Engineer',
-    summary: '4+ years of experience as a Full Stack Developer(MEAN/MERN)',
+    summary: '4+ years of experience as a Full Stack Developer(MEAN/MERN/MEVN Stack)',
     email: 'sachinx1000@gmail.com',
     phone: '8962917734',
     address: '482, Omaxe Hills, Indore, India',
@@ -811,11 +811,10 @@ export class AppComponent {
         company: 'InfoBeans Technologies LTD.',
         duration: '04/2022 - Present',
         achievementsOrTasks: [
-          'Full Stack Development using Angular + rxjs + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
-          'Full Stack Development using ReactJS + Redux + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
-          'Client Communication',
-          'Efforts Estimation',
-          'Acting lead for UI team of 4'
+          'Full Stack Development using MongoDB + ExpressJS + (Angular/ReactJS/VueJS) + NodeJS stack',
+          'Leading a team',
+          'Efforts Estimation for the tasks',
+          'Functional Unit Testing'
         ]
       },
       {
@@ -823,11 +822,10 @@ export class AppComponent {
         company: 'InfoBeans Technologies LTD.',
         duration: '10/2020 - 03/2022',
         achievementsOrTasks: [
-          'Full Stack Development using Angular + rxjs + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
-          'Full Stack Development using ReactJS + Redux + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
-          'Client Communication',
-          'Efforts Estimation',
-          'Acting lead for UI team of 4'
+          'Full Stack Development using MongoDB + ExpressJS + (Angular/ReactJS/VueJS) + NodeJS stack',
+          'Acting lead of a team',
+          'Efforts Estimation for the tasks',
+          'Functional Unit Testing'
         ]
       },
       {
@@ -835,11 +833,9 @@ export class AppComponent {
         company: 'InfoBeans Technologies LTD.',
         duration: '07/2019 - 09/2020',
         achievementsOrTasks: [
-          'Full Stack Development using Angular + Spring Boot + MySQL stack and functional unit testing',
-          'Front End Development using ReactJS and Redux',
-          'Client Communication',
-          'Efforts Estimation',
-          'Acting lead for UI team of 5'
+          'Full Stack Development using MEAN/MERN stack',
+          'Efforts Estimation for the tasks',
+          'Functional Unit Testing'
         ]
       },
       {
@@ -847,10 +843,8 @@ export class AppComponent {
         company: 'InfoBeans Technologies LTD.',
         duration: '07/2018 - 06/2019',
         achievementsOrTasks: [
-          'Front End Development using Angular',
-          'Front End Development using ReactJS and Redux',
-          'Client Communication',
-          'Functional Unit Testing'
+          'Front End Development using Angular and ReactJS',
+          'Unit Testing using Karma, Mocha and Chai'
         ]
       }
     ],
@@ -874,88 +868,98 @@ export class AppComponent {
         score: '8.8'
       }
     ],
-    skills: ['HTML','CSS','JavaScript','Typescript','Angular 2+(All versions)', 'Angular Material', 'rxjs','ReactJS','Redux', 'react-router', 'AntDesign','VueJS','NodeJS','MongoDB','ExpressJS','BootStrap','Git','Front End Development','Full Stack Development','Communication','Team Work','Effort Estimation','Leadership'],
+    skills: ['HTML','CSS','JavaScript','Typescript','Angular 2+(All versions)', 'Angular Material', 'rxjs','ReactJS','Redux', 'react-router', 'AntDesign','VueJS','NodeJS','MongoDB','ExpressJS','REST APIs','BootStrap','Git','Balsamiq','Full Stack Development (MEAN/MERN/MEVN)','Front End Development','Communication','Team Work','Efforts Estimation','Leadership'],
     projects: [
       {
         name: 'Vehicle Commerce',
         duration: '12/2020 - Present',
-        description: 'An E-commerce web application to buy and sell used cars',
+        description: 'This project contains multiple portals such as Dealer Portal, Admin Portal, Field Agent Portal, Agent Dashboard Portal, Customer Support Portal, Testride Mangament Portal. All these portals were developed using MEAN, MERN and MEVN Stacks',
         teamSize: '19',
-        role: 'Full stack Developer using MEAN/MERN (ReactJS, Redux, Angular, rxjs, NodeJS, MongoDB, ExpressJS)',
+        role: 'Full stack Developer',
         responsibilities: [
-          'UI team lead',
-          'Client Communication',
-          'Full Stack Development',
-          'Efforts Estimation',
-          'Unit testing'
+          'Working on multiple portals and tech stacks parallelly',
+          'Working as a lead of UI team',
+          'Full stack development using MEAN, MERN and MEVN (MongoDB + ExpressJS + (Angular/ReactJS/VueJS) + NodeJS) Stacks',
+          'Front end development using Angular, Angular Material, rxjs, ReactJS, Redux, react-router, AntDesign and VueJS',
+          'REST APIs implementation using NodeJS and ExpressJS',
+          'Exact UI screens implementation from Figma Designs',
+          'Database operations using mongoose(MongoDB)',
+          'Efforts Estimation for the tasks',
+          'Functional unit testing'
         ]
       },
       {
         name: 'Claim Settlement Portal',
         duration: '12/2019 - 12/2020',
-        description: 'A web portal to provide online services to insurers, Healthcare, Providers and Employers',
+        description: 'A web portal to provide online services to insurers, Healthcare, Providers and Employers to complete the various processes such as Pre-approval of a claim, Claim Processing, Batching of claims, etc with the help of a simple user interface',
         teamSize: '5',
-        role: 'Front End Developer using Angular, Angular Material and rxjs',
+        role: 'Full Stack Developer',
         responsibilities: [
-          'Team lead',
-          'Client Communication',
-          'Front End Development',
-          'Efforts Estimation',
-          'Unit testing'
+          'Worked as a team lead',
+          'Full stack development using MEAN(MongoDB, ExpressJS, Angular and NodeJS) Stack',
+          'Front end development using Angular, Angular Material and rxjs',
+          'Rest APIs implementation using NodeJS and ExpressJS',
+          'Database Operation using Mongoose(MongoDB)',
+          'Exact UI screens implementation from mock designs',
+          'Efforts Estimation for the tasks',
+          'Functional unit testing'
         ]
       },
       {
         name: 'Providers Onboarding Portal',
         duration: '06/2020 - 09/2020',
-        description: 'A web application used to onboard the new providers',
+        description: 'A web application used to onboard the new providers in the system',
         teamSize: '4',
-        role: 'Front End Developer using ReactJS, Redux, Ant Design and react-router',
+        role: 'Front End Developer',
         responsibilities: [
-          'Team lead',
-          'Client Communication',
-          'Front End Development',
-          'Efforts Estimation',
-          'Unit testing'
+          'Worked as a team lead',
+          'Front End Development using ReactJS, Redux, Ant Design and react-router',
+          'Exact UI screens implementation from mock designs',
+          'Efforts Estimation for the tasks',
+          'Functional unit testing'
         ]
       },
       {
         name: 'Exit Portal',
         duration: '03/2020 - 05/2020',
-        description: 'A web application to automate the exit process of an employee in an organization',
+        description: 'A web application for smooth exit process of an employee from an organization using simple user interface',
         teamSize: '7',
-        role: 'Front End Developer using ReactJS, Redux, Ant Design and react-router',
+        role: 'Full Stack Developer',
         responsibilities: [
-          'Team lead',
-          'Client Communication',
-          'Front End Development',
-          'Efforts Estimation',
-          'Unit testing'
+          'Worked as a team lead',
+          'Full stack development using MERN(MongoDB, ExpressJS, ReactJS and NodeJS) Stack',
+          'Front end development using ReactJS, Redux, react-router and AntDesign',
+          'REST APIs implementation using NodeJS and ExpressJS',
+          'UI mock designs implementation using Balsamiq',
+          'Database operations using mongoose(MongoDB)',
+          'Efforts Estimation for the tasks',
+          'Functional unit testing'
         ]
       },
       {
         name: 'Dynamic Reward Offering Application',
         duration: '05/2019 - 12/2019',
-        description: 'A web application with admin support used to track transactions and provide dynamic rewards and offers',
+        description: 'A web application with admin support used to track transactions and provide dynamic rewards and offers to the end users on the basis of their activity',
         teamSize: '13',
-        role: 'Full Stack Developer using Angular, Angular Material, Spring Boot and MySQL',
+        role: 'Full Stack Developer',
         responsibilities: [
-          'Client Communication',
-          'Full Stack Development',
-          'Efforts Estimation',
-          'Unit testing'
+          'Full stack development using MEAN(MongoDB, ExpressJS, Angular and NodeJS) Stack',
+          'Front end development using Angular, Angular Material, rxjs',
+          'REST APIs implementation using NodeJS and ExpressJS',
+          'Database operations using mongoose(MongoDB)',
+          'Efforts Estimation for the tasks',
+          'Functional unit testing'
         ]
       },
       {
         name: 'Storage Automation Tool',
         duration: '07/2018 - 04/2019',
-        description: 'A software solution that helps to automate storage management tasks such as provisioning, migration and cloning storage',
+        description: 'A software solution that helps to automate storage management tasks such as provisioning, migration and cloning storage. A user can create Commands, Filters, Finders and Workflows to extract the desired information from the huge amount of data using a simple user interface',
         teamSize: '11',
-        role: 'Front End Developer using Angular, Angular Material, DevExtreme and rxjs',
+        role: 'Front End Developer',
         responsibilities: [
-          'Client Communication',
-          'Front End Development',
-          'Efforts Estimation',
-          'Unit testing'
+          'Front End Development using Angular, Angular Material, DevExtreme, rxjs, Bootstrap, React, Redux, react-router and antDesign',
+          'Unit testing using Karma, Mocha and Chai'
         ]
       }
     ],
