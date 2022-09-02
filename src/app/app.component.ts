@@ -187,7 +187,7 @@ export class AppComponent {
     theme: '#088F8F',
     profilePic: 'assets/avantika.jpg',
     name: 'Avantika Vyas',
-    designation: 'Business Analyst',
+    designation: 'Certified Scrum Product Owner/Manager',
     summary: 'With 4+ years of experience of working in Salesforce and FinTech domains with SAFe-Scaled Agile Scrum model with the ability to work independently and manage business expectations within a delivery-focused approach with a team of 10+ cross-functional resources.',
     email: 'avantika.vyas21@gmail.com',
     phone: '8602699810',
@@ -236,7 +236,7 @@ export class AppComponent {
       {
         designation: 'Software Developer Trainee',
         company: 'Worldpay',
-        duration: '08/2018 - 11/2028',
+        duration: '08/2018 - 11/2018',
         achievementsOrTasks: [
           'Responsible for high level design, development and unit testing of epics and it\'s enhancements.',
           'Ensured Production and customer issues are fixed within the time of warranty support.',
@@ -265,6 +265,8 @@ export class AppComponent {
       }
     ],
     skills: [
+      'CSPO/PM',
+      'SAFe 5.0',
       'Product Backlog Creation & Refinement',
       'UI/UX',
       'Stakeholder Communication & Management',
@@ -343,7 +345,7 @@ export class AppComponent {
     ],
     languages: ['English','Hindi'],
     interests: ['Cooking', 'Yoga', 'Travelling', 'Food'],
-    domain: ['PAYMENT','SALESFORCE']
+    domain: ['FinTech','Salesforce']
   }
 
   priyaData: any = {
