@@ -15,7 +15,7 @@ export class AppComponent {
 
   ngOnInit() {
     this.priyaData = null;
-    this.resumeData = this.sachinAllTechData;
+    this.resumeData = this.avantikaData;
   }
 
   sachinData: any = {
@@ -207,7 +207,7 @@ export class AppComponent {
         ]
       },
       {
-        designation: 'Product Analyst',
+        designation: 'Senior Product Analyst',
         company: 'Worldpay from FIS',
         duration: '07/2020 - 10/2021',
         achievementsOrTasks: [
@@ -221,7 +221,7 @@ export class AppComponent {
       },
       {
         designation: 'Product Owner',
-        company: 'Worldpay',
+        company: 'Worldpay from FIS',
         duration: '11/2018 - 06/2020',
         achievementsOrTasks: [
           'Provided technical insight for product teams to drive decision making.',
@@ -235,7 +235,7 @@ export class AppComponent {
       },
       {
         designation: 'Software Developer Trainee',
-        company: 'Worldpay',
+        company: 'Worldpay from FIS',
         duration: '08/2018 - 11/2018',
         achievementsOrTasks: [
           'Responsible for high level design, development and unit testing of epics and it\'s enhancements.',
@@ -290,9 +290,9 @@ export class AppComponent {
     ],
     projects: [
       {
-        name: 'Personal Management System',
+        name: 'Personnel Management System',
         duration: '11/2021 - Present',
-        description: 'Development of system for personnel and processes management for a non -profit organization in US',
+        description: 'Development of web based system for personnel and process management along with balloting for a non-profit organization in US organisation that regulates standards development and management.',
         teamSize: '22',
         role: 'Salesforce Business Analyst',
         responsibilities: [
@@ -339,7 +339,7 @@ export class AppComponent {
         teamSize: '8',
         role: 'Product Owner',
         responsibilities: [
-          'Managed the feature development and defect backlog on a daily basis to ensure that priorities adhere to the strategic direction outlined by the [Product Manager'
+          'Managed the feature development and defect backlog on a daily basis to ensure that priorities adhere to the strategic direction outlined by the Product Manager'
         ]
       }
     ],
