@@ -14,8 +14,8 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    this.priyaData = null;
-    this.resumeData = this.avantikaData;
+    // this.priyaData = null;
+    this.resumeData = this.priyaData;
   }
 
   sachinData: any = {
@@ -188,18 +188,18 @@ export class AppComponent {
     profilePic: 'assets/avantika.jpg',
     name: 'Avantika Vyas',
     designation: 'Certified Scrum Product Owner/Manager',
-    summary: 'With 4+ years of experience of working in Salesforce and FinTech domains with SAFe-Scaled Agile Scrum model with the ability to work independently and manage business expectations within a delivery-focused approach with a team of 10+ cross-functional resources.',
+    summary: 'With 4+ years of experience of working in FinTech domain with SAFe-Scaled Agile Scrum model with the ability to work independently and manage business expectations within a delivery-focused approach with a team of 10+ cross-functional resources.',
     email: 'avantika.vyas21@gmail.com',
     phone: '8602699810',
     address: 'Indore',
     dob: '01 Jan, 1996',
     workExperiences: [
       {
-        designation: 'Salesforce Business Analyst',
+        designation: 'Business Analyst',
         company: 'InfoBeans Technologies LTD.',
         duration: '10/2021 - Present',
         achievementsOrTasks: [
-          'Responsible for gathering, validating and documenting business requirements​ along with managing salesforce requeriments while working for a US client for development of a system on Salesforce for better management of tasks at their end.',
+          'Responsible for gathering, validating and documenting business requirements​ along with managing requeriments while working for a US client for development of a system for better management of tasks at their end.',
           'Worked with UI/UX team in close alignment to determine flow and ensure excellent customer experience.',
           'Responsible for Effective stakeholder engagement.',
           'Documented the initiatives and prepared a complete product roadmap for an ambitious project for client from US.',
@@ -285,8 +285,7 @@ export class AppComponent {
       'Confluence',
       'Rally',
       'Leadership Skills',
-      'Excellent Communication Skills',
-      'Salesforce',
+      'Excellent Communication Skills'
     ],
     projects: [
       {
@@ -294,9 +293,9 @@ export class AppComponent {
         duration: '11/2021 - Present',
         description: 'Development of web based system for personnel and process management along with balloting for a non-profit organization in US organisation that regulates standards development and management.',
         teamSize: '22',
-        role: 'Salesforce Business Analyst',
+        role: 'Business Analyst',
         responsibilities: [
-          'Gathering, validating and documenting business and Salesforce requirements​.',
+          'Gathering, validating and documenting business requirements​.',
           'Creating and managing backlog of requirements in the form of user stories.',
           'Identifying issues, risks and benefits of existing and proposed solutions and outlining business impacts.',
           'Creating functional specifications for solutions​.'
@@ -345,14 +344,14 @@ export class AppComponent {
     ],
     languages: ['English','Hindi'],
     interests: ['Cooking', 'Yoga', 'Travelling', 'Food'],
-    domain: ['FinTech','Salesforce']
+    domain: ['FinTech']
   }
 
   priyaData: any = {
     theme: '#088F8F',
     profilePic: 'assets/priya.jpg',
     name: 'Priya Singh',
-    designation: 'Business Development Executive',
+    designation: 'Human Resource Management/Business Development Executive',
     summary: '3+ years of experience',
     email: 'priyaljoe@gmail.com ',
     phone: '9340136541',
@@ -372,7 +371,7 @@ export class AppComponent {
         achievementsOrTasks: []
       },
       {
-        designation: 'Assistant in Business Development',
+        designation: 'Assistant in Business Development/Human Resource Management',
         company: 'Shalby Multispecialty Hospital, ',
         duration: 'Jan, 2020 - Nov, 2021',
         achievementsOrTasks: []
@@ -423,18 +422,30 @@ export class AppComponent {
     skills: [
       'Business Development',
       'Human Resource',
-      'Academic Counseling',
+      'Issuing and Reviewing Employment Contracts',
+      'Completing joining formalities of staff',
       'Coordinating Hospital Visits of Institute',
-      'Reviewing Contract',
-      'Maintaining Revenue Record',
+      'Volunteered employee engagement activities',
       'Giving Hospital Orientation to Institutes',
+      'Maintaining Revenue Record',
       'Generating Lead',
+      'Academic Counseling',
       'Fostering B2B relationships',
-      'Facility Rounds',
-      'Assisted in completing joining formalities of Medical and non-medical staff',
       'Assisted monthly induction program',
+      'Facility Rounds',
       'Interview calls to candidates',
-      'Volunteered employee engagement activities'
+    ],
+    certificates: [
+      {
+        name: 'Human Resource Management',
+        number: 'Certificate ID: APXCCHRM222104010',
+        link: 'https://drive.google.com/file/d/1Y_fOpOzpdbQlIQOJw3thLFQo0OJDUxnC/view?usp=sharing'
+      },
+      {
+        name: 'Certificate of Appreciation',
+        number: "Dr. Agrwal's Eye Hospital",
+        link: 'https://drive.google.com/file/d/1-Yod4VXTq3d4nNZEFRCBJ6T2OigMLvXw/view?usp=sharing'
+      }
     ],
     projects: [
       {
