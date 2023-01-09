@@ -14,8 +14,8 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    // this.priyaData = null;
-    this.resumeData = this.priyaData;
+    this.priyaData = null;
+    this.resumeData = this.avantikaData;
   }
 
   sachinData: any = {
@@ -30,9 +30,19 @@ export class AppComponent {
     dob: '07 July, 1995',
     workExperiences: [
       {
+        designation: 'System Analyst',
+        company: 'Valuelabs',
+        duration: '11/2022 - Present',
+        achievementsOrTasks: [
+          'Full Stack Development using VueJS + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
+          'Client Communication',
+          'Efforts Estimation'
+        ]
+      },
+      {
         designation: 'Senior Software Engineer',
         company: 'InfoBeans Technologies LTD.',
-        duration: '04/2022 - Present',
+        duration: '04/2022 - 10/2022',
         achievementsOrTasks: [
           'Full Stack Development using VueJS + NodeJS + MongoDB + ExpressJS stack and functional unit testing',
           'Client Communication',
@@ -187,7 +197,7 @@ export class AppComponent {
     theme: '#088F8F',
     profilePic: 'assets/avantika.jpg',
     name: 'Avantika Vyas',
-    designation: 'Certified Scrum Product Owner/Manager',
+    designation: 'Certified Scrum Product Manager/Owner',
     summary: 'With 4+ years of experience of working in FinTech domain with SAFe-Scaled Agile Scrum model with the ability to work independently and manage business expectations within a delivery-focused approach with a team of 10+ cross-functional resources.',
     email: 'avantika.vyas21@gmail.com',
     phone: '8602699810',
@@ -195,9 +205,21 @@ export class AppComponent {
     dob: '01 Jan, 1996',
     workExperiences: [
       {
+        designation: 'Product Manager',
+        company: 'Bajaj Finserv',
+        duration: '11/2022 - Present',
+        achievementsOrTasks: [
+          'Data analysis and finding new avenues of growth, optimisation and innovation across all products of Personal loans.',
+          'Defining the product vision, strategy and roadmap.',
+          'Acting as customer advocate articulating the user’s and/or buyer’s needs.',
+          'Working closely with engineering, sales, marketing and support teams to ensure business case and customer satisfaction goals are met.',
+          'Aligning stakeholders around the vision for the product'
+        ]
+      },
+      {
         designation: 'Business Analyst',
         company: 'InfoBeans Technologies LTD.',
-        duration: '10/2021 - Present',
+        duration: '10/2021 - 10/2022',
         achievementsOrTasks: [
           'Responsible for gathering, validating and documenting business requirements​ along with managing requeriments while working for a US client for development of a system for better management of tasks at their end.',
           'Worked with UI/UX team in close alignment to determine flow and ensure excellent customer experience.',
@@ -289,8 +311,22 @@ export class AppComponent {
     ],
     projects: [
       {
-        name: 'Personnel Management System',
+        name: 'Marketing campaigns for PL product',
         duration: '11/2021 - Present',
+        description: 'Developing strategic vision, setting specific goals and monitoring marketing campaigns for all the products across PL',
+        teamSize: '20',
+        role: 'Product Manager',
+        responsibilities: [
+          'Data analysis and finding new avenues of growth, optimisation and innovation across all products of Personal loans.',
+          'Defining the product vision, strategy and roadmap.',
+          'Acting as customer advocate articulating the user’s and/or buyer’s needs.',
+          'Working closely with engineering, sales, marketing and support teams to ensure business case and customer satisfaction goals are met.',
+          'Aligning stakeholders around the vision for the product'
+        ]
+      },
+      {
+        name: 'Personnel Management System',
+        duration: '11/2021 - 10/2022',
         description: 'Development of web based system for personnel and process management along with balloting for a non-profit organization in US organisation that regulates standards development and management.',
         teamSize: '22',
         role: 'Business Analyst',
@@ -344,7 +380,7 @@ export class AppComponent {
     ],
     languages: ['English','Hindi'],
     interests: ['Cooking', 'Yoga', 'Travelling', 'Food'],
-    domain: ['FinTech']
+    domain: ['FinTech', 'Banking']
   }
 
   priyaData: any = {
@@ -819,6 +855,16 @@ export class AppComponent {
     address: '482, Omaxe Hills, Indore, India',
     dob: '07 July, 1995',
     workExperiences: [
+      {
+        designation: 'System Analyst',
+        company: 'Valuelabs',
+        duration: '11/2022 - Present',
+        achievementsOrTasks: [
+          'Full Stack Development using MongoDB + ExpressJS + (Angular/ReactJS/VueJS) + NodeJS stack',
+          'Client Communication',
+          'Efforts Estimation'
+        ]
+      },
       {
         designation: 'Senior Software Engineer',
         company: 'InfoBeans Technologies LTD.',
